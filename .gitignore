@@ -1,0 +1,31 @@
+# Source data
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Reproducible build products
+data/derived/*
+!data/derived/.gitkeep
+output/figures/*
+!output/figures/.gitkeep
+output/tables/*
+!output/tables/.gitkeep
+logs/*
+!logs/.gitkeep
+climate/interim/*
+!climate/interim/.gitkeep
+
+# Python and Stata working files
+__pycache__/
+*.py[cod]
+*.smcl
+*.stswp
+examples/*.log
+.venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+
+
